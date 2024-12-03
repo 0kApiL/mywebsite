@@ -1,15 +1,166 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BearSpirit Lodge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Pro:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Calibri:wght@400;700&display=swap" rel="stylesheet" />
+    <title>Ascent Physiotherapy</title>
+    <!-- DGL 103 CVS2 - Kapil - Project -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+        <!-- Header -->
     <header>
-        <a href="index.html"><img src="https:https://www.istockphoto.com/photo/american-black-bear-gm506289442-84138133?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fbear-png&utm_term=bear+png%3A%3A%3A" width="150"
-            
-        </a>
+        <div class="logo"></div>
+        <img src="Images/Ascent Logo white.png" alt="" width="15%" class="src">
+
+        <nav>
+            <a class="toggle" onclick="showNav()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul id="nav-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+
+                <li><a href="contactus.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+    <div class="main">
+        <!-- Hero Part -->
+        <div class="content">
+            <section id="hero" class="content-block">
+                <!-- <vid src="videos/home.mp4" alt=""class="src"> -->
+                <video src="videos/home.mp4" alt="Healing and Wellness Video" loop
+                    autoplay muted>
+
+                </video>
+
+
+
+
+
+                <h1>Experience Healing and Wellness</h1>
+
+                <p>
+                    Ascent Physiotherapy is a comprehensive physiotherapy clinic based in Comox, BC.
+                     We provide a range of services, including Physiotherapy, Manual/Manipulative Therapy, IMS, Acupuncture, Radial Shockwave Therapy, and personalized exercise programs such as Personal Training. 
+                     Our services cater to the residents of the Comox Valley and nearby areas.
+                </p>
+
+                <button class="cta-button">
+                    <a href="services.html">Book an Appointment</a>
+                </button>
+            </section>
+        </div>
+        <div class="about">
+            <!-- About Us Section -->
+
+            <section id="about" class="content-block">
+                <h2>ABOUT US</h2>
+                <p>
+                    Welcome to Ascent Physiotherapy, your trusted partner on the journey to health and wellness. At
+                    Ascent, we believe in the transformative power of physiotherapy to enhance your well-being and bring
+                    you back to life's activities with strength and confidence. Step into a place where your health is
+                    our priority, and your journey to recovery is guided by experienced and caring professionals.
+                </p>
+
+                <p>
+                    <a href="team.html">Know more here</a>
+                </p>
+
+
+                <img src="Images/TEAM.jpg" alt="backgrounimage" class="src">
+
+                <h3>
+                    OUR MISSION
+                </h3>
+
+                <p>
+                    At Ascent Physiotherapy, our mission is to help individuals achieve pain-free, active lifestyles through evidence-based physiotherapy techniques. 
+                    We are committed to providing personalized, comprehensive, and compassionate care that meets each patient's unique needs.
+
+                </p>
+
+
+
+            </section>
+
+        </div>
+        <!-- FEATURES -->
+        <section class="features">
+            <h2>OUR SERVICES</h2>
+
+            <P>
+                Discover our wide range of services, meet our dedicated team, and take the first step toward a healthier, more active lifestyle.
+                 Your well-being is our top priority, and we’re honored to support you on your journey of strength, resilience, and recovery.
+            </P>
+
+            <div class="featuresWrapper">
+                <a href="services.html" class="feature">
+
+                    <h3>Physical Therapy</h3>
+
+
+
+                </a>
+
+                <a href="services.html" class="feature">
+
+                    <h3>Manual and Manipulative Therapy</h3>
+
+
+
+                </a>
+
+                <a href="services.html" class="feature">
+
+                    <h3>Intramuscular Stimulation (IMS) </h3>
+
+
+
+                </a>
+                <a href="services.html" class="feature">
+
+                    <h3>Acupuncture</h3>
+
+
+                </a>
+
+
+            </div>
+            <p>
+
+                <a href="services.html">ExploreMore</a>
+            </p>
+
+            <img src="Images/services.jpg" alt="" class="src" width="100%">
+
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5164.048380952223!2d-124.92488200000001!3d49.672683!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881315b1258325%3A0xf21aee3501fe1122!2sAscent%20Physiotherapy!5e0!3m2!1sen!2sus!4v1732861588734!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- Footer -->
+        <footer>
+            <h5>&copy; 2023 Ascent Physiotherapy</h5>
+            <div class="SocialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+
+            <p>“This is a fictional website that was designed and coded as an educational exercise. It is not intended
+                to be seen outside of the class environment. None of the content and images were approved by the
+                business owner.” </p>
+               
+        </footer>
+        <script>
+            function showNav() {
+                var element = document.getElementById("nav-items");
+                element.classList.toggle("show-items");
+            }
+        </script>
+
+
 </body>
 </html>
